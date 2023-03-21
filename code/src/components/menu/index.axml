@@ -1,0 +1,10 @@
+
+
+<view class="pf bg-white2 full index80" style="top:0rpx:left:0rpx" onTap="hideShow" a:if="{{show}}">
+   <view class="flex-box flex-column listPanel bg-white pr radius8">
+     
+     <view class="listItem" v-for="" catchTap={{goNavtive(url)}} >
+       
+     </view>
+   </view>
+</view>

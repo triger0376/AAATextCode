@@ -1,0 +1,58 @@
+
+<view>
+我是一个自由的小程序
+<view class="demo">
+    <demo-block title="填充模式">
+      <view class="btn-list btn-list-default">
+        <button 
+          type="primary"
+          fill="solid">
+          solid
+        </button>
+        <button 
+          type="primary"
+          fill="outline">
+          outline
+        </button>
+        <button 
+          type="primary"
+          fill="none">
+          none
+        </button>
+      </view>
+    </demo-block>
+    <demo-block title="语义按钮">
+      <view class="btn-list">
+        <button 
+          a:for="{{list}}" 
+          type="{{item.type}}">
+          {{item.type}}
+        </button>
+      </view>
+    </demo-block>
+    <demo-block title="禁用状态">
+      <button 
+        disabled
+        type="primary">
+        禁用状态
+      </button>
+    </demo-block>
+    <demo-block title="加载状态">
+      <button 
+        loading
+        type="primary"
+        loadingText="正在加载">
+        加载状态
+      </button>
+    </demo-block>
+    <demo-block title="含有副标题">
+      <view class="btn-list">
+        <button 
+          subText="副标题"
+          type="primary">
+          按钮
+        </button>
+      </view>
+    </demo-block>
+  </view>
+</view> 

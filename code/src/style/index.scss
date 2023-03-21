@@ -1,0 +1,313 @@
+ 
+ 
+@for $i from 1 through 28 {
+    .f#{2 * $i + 8} {
+      font-size: 2 * $i + 8 + rpx;
+    }
+  }
+  @for $i from 1 through 24 {
+    .flex#{$i} {
+      flex: $i;
+    }
+  }
+   
+  @for $i from 1 through 80 {
+    .index#{$i} {
+      z-index: $i * 1 ;
+    }
+    /****margin*****/
+    .mr#{$i} {
+      margin-right: $i * 1 + 0rpx;
+    }
+    .ml#{$i} {
+      margin-left: $i * 1 + 0rpx;
+    }
+    .mb#{$i} {
+      margin-bottom: $i * 1+ rpx;
+    }
+    .mt#{$i} {
+      margin-top: $i * 1 + 0rpx;
+    }
+    .mr-#{$i} {
+      margin-right: 0- $i * 1 + 0rpx;
+    }
+    .ml-#{$i} {
+      margin-left: 0- $i * 1 + 0rpx;
+    }
+    .mb-#{$i} {
+      margin-bottom: 0- $i * 1 + 0rpx;
+    }
+    .mt-#{$i} {
+      margin-top: 0- $i * 1+ 0rpx;
+    }
+    .m#{$i} {
+      margin-top: $i * 1 + 0rpx;
+      margin-left: $i * 1+ 0rpx;
+      margin-right: $i * 1 + 0rpx;
+      margin-bottom: $i * 1 + 0rpx;
+    }
+   
+    /**padding**/
+    .pad#{$i} {
+      padding-top: $i * 1+ 0rpx;
+      padding-left: $i * 1 + 0rpx;
+      padding-right: $i * 1 + 0rpx;
+      padding-bottom: $i * 1+ 0rpx;
+    }
+    .padr#{$i} {
+      padding-right: $i * 1 + 0rpx;
+    }
+    .padl#{$i} {
+      padding-left: $i * 1 + 0rpx;
+    }
+    .padb#{$i} {
+      padding-bottom: $i * 1 + 0rpx;
+    }
+    .padt#{$i} {
+      padding-top: $i * 1 + 0rpx;
+    }
+   
+    .radius#{$i} {
+      border-radius: $i * 1 +0rpx;
+    }
+    .radius-b#{$i} {
+      border-radius: 0rpx 0rpx $i * 1+0rpx $i * 1+0rpx;
+    }
+    .radius-t#{$i} {
+      border-radius: $i * 1+0rpx $i * 1+0rpx 0rpx 0rpx;
+    }
+    .radius-bt#{$i} {
+      border-radius: $i * 1+0rpx 0rpx $i * 1+0rpx 0rpx;
+    }
+    .radius-rl#{$i} {
+      border-radius: 0rpx $i * 1+0rpx 0rpx $i * 1+0rpx;
+    }
+  }
+   
+  .titleText {
+    font-size: 16px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #262626;
+    line-height: 56px;
+  }
+  .over-hidden {
+    overflow: hidden;
+  }
+  .over-y {
+    overflow-y: auto;
+  }
+  .over-x {
+    overflow-x: auto;
+  }
+   
+  /*************************css 基础属性样式*************************/
+   
+  .pr {
+    position: relative;
+  }
+  .pf {
+    position: fixed;
+  }
+  .pa {
+    position: absolute;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+   
+  /*****flex 布局相关******/
+  .flex-box {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .middle {
+    justify-content: center;
+    align-items: center;
+  }
+  .middle-a {
+    align-items: center;
+  }
+  .middle-j {
+    justify-content: center;
+  }
+  .flex-end-a {
+    align-items: end;
+  }
+  .flex-end {
+    justify-content: flex-end;
+  }
+  .flex-column {
+    flex-direction: column;
+  }
+  .flex-row {
+    flex-direction: row;
+  }
+  .flex-between {
+    justify-content: space-between;
+  }
+   
+  /***** display 布局相关******/
+  .flow-box {
+    display: flow-root;
+  }
+   
+  .inblock-box {
+    display: inline-block;
+  }
+  .block-box {
+    display: block;
+  }
+   
+  .full {
+    width: 100%;
+    height: 100%;
+  }
+  .full-w {
+    width: 100%;
+  }
+  .full-h {
+    height:calc(100% - 0rpx)
+  }
+  .text-nowrap {
+    white-space: nowrap;
+  }
+  .text-link {
+    color: #6aaeff;
+  }
+  .text-white {
+    color: #fff;
+  }
+  .text-waring {
+    color: #ff4757;
+  }
+  .text-title {
+    color: #262626;
+  }
+  .text-sub {
+    color: #595959;
+  }
+  .text-sub1 {
+    color: #8c8c8c;
+  }
+  .text-success {
+    color: #5be873;
+  }
+  .text-bold {
+    font-weight: bold;
+  }
+  .text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .text-ellipsis2 {
+    overflow: hidden; //超出的文本隐藏
+    text-overflow: ellipsis; //溢出用省略号显示
+    display: -webkit-box;
+    -webkit-line-clamp: 2; // 超出多少行
+    -webkit-box-orient: vertical;
+  }
+  .text-ellipsis3 {
+    overflow: hidden; //超出的文本隐藏
+    text-overflow: ellipsis; //溢出用省略号显示
+    display: -webkit-box;
+    -webkit-line-clamp: 3; // 超出多少行
+    -webkit-box-orient: vertical;
+  }
+  .text-ellipsis4 {
+    overflow: hidden; //超出的文本隐藏
+    text-overflow: ellipsis; //溢出用省略号显示
+    display: -webkit-box;
+    -webkit-line-clamp: 4; // 超出多少行
+    -webkit-box-orient: vertical;
+  }
+  .bg-body {
+    background-color: #f3f6fa;
+  }
+  .bg-tip {
+    background-color: #f0f7ff;
+  }
+  .bg-white {
+    background-color: #fff;
+  }
+  .bg-white2 {
+    background-color: rgba(255,255,255,0.2);
+  }
+  .bg-panel {
+    background-color: #f7f8fa;
+  }
+  .bg-lab {
+    background-color: #f0f0f0;
+  }
+  .bg-info {
+    background-color: #f5f7fa;
+  }
+  .bg-info1 {
+    background-color: rgba(246, 124, 2,0.5);
+  }
+   
+  .bg-primary {
+    background-color: #0678ff;
+  }
+  .bg-success {
+    background-color: #6bd461;
+  }
+  .bg-waring {
+    background-color: #ff4757;
+  }
+  .bg-dark{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .bg-border{
+    background-color: #E1E8F0; 
+  }
+  .bg-tip2 {
+    background-color: #e5e6eb;
+  }
+  .border1 {
+    border: 1px solid #e1e8f0;
+  }
+  .borderb-1 {
+    border-bottom: 1px solid #e1e8f0;
+  }
+  .box-sh {
+    box-shadow: 0rpx 2px 4px 0rpx rgba(0, 0, 0, 0.1);
+  }
+   
+  .alignL {
+    text-align: left;
+  }
+  .alignR {
+    text-align: right;
+  }
+  .alignC {
+    text-align: center;
+  }
+
+  .full-h-mi{
+    min-height: 100%;
+  }
+  .full-w-mi{
+    min-width: 100%;
+  }
+  .full-h-mx{
+    max-height: 100%;
+  }
+  .full-w-mx{
+    max-width: 100%;
+  }
+  .full-mx{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .full-mi{
+    max-height: 100%;
+    min-width: 100%;
+  }
+
+  .alignBase{
+    align-items: baseline;
+  }

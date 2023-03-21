@@ -1,0 +1,10 @@
+{
+    "defaultTitle": "Button",
+    "usingComponents": {
+      "button": "../../../../../node_modules/antd-mini/es/Button/index",
+      "list": "../../../../../node_modules/antd-mini/es/List/index",
+      "list-item": "../../../../../node_modules/antd-mini/es/List/ListItem/index",
+      "switch": "../../../../../node_modules/antd-mini/es/Switch/index",
+      "demo-block": "../../../../components/DemoBlock/index"
+    }
+  }

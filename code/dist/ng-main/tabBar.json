@@ -1,0 +1,20 @@
+{
+  "backgroundColor": 12208098,
+  "items": [
+    {
+      "name": "首页",
+      "tag": "pages/pageOne/index",
+      "url": "index.html#pages/pageOne/index",
+      "launchParamsTag": "pages/pageOne/index"
+    },
+    {
+      "name": "日志",
+      "tag": "pages/index/index",
+      "url": "index.html#pages/index/index",
+      "launchParamsTag": "pages/index/index"
+    }
+  ],
+  "disableOnInit": true,
+  "selectedColor": 4827630,
+  "textColor": 16777215
+}

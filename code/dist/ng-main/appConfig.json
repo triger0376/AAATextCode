@@ -1,0 +1,22 @@
+{
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "pages": [
+    "pages/pageOne/index",
+    "pages/index/index"
+  ],
+  "launchParams": {
+    "pages/pageOne/index": {
+      "defaultTitle": "页面下拉刷新和上拉加载",
+      "pullRefresh": true,
+      "optionMenu": {
+        "icon": "https://img.alicdn.com/tps/i3/T1OjaVFl4dXXa.JOZB-114-114.png"
+      }
+    },
+    "pages/index/index": {
+      "defaultTitle": "My App"
+    }
+  },
+  "prerenderPage": "index.html"
+}

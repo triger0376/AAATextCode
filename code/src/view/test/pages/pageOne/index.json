@@ -1,0 +1,10 @@
+{
+  "pullRefresh": true,
+  "defaultTitle": "页面下拉刷新和上拉加载",
+  "optionMenu": {
+    "icon": "https://img.alicdn.com/tps/i3/T1OjaVFl4dXXa.JOZB-114-114.png"
+  },
+  "usingComponents": {
+    "menu": "../../../../components/menu/index" 
+  }
+}

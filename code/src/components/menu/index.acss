@@ -1,0 +1,63 @@
+.listPanel{
+  width: 260rpx;
+  height: 260rpx;
+  float:right;
+  border: 1px solid #e1e8f0;
+  margin-top: 10rpx;
+  margin-right: 30rpx;
+}
+.listItem{
+  height: 46rpx;
+  border-bottom: 1px solid #e1e8f0;
+}
+.listPanel::after{
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  left: 60rpx;
+  top: -30rpx;
+  border-width: 16rpx;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+}
+.listPanel::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-width: 16rpx;
+  border-style: solid;
+  position: absolute;
+  top: -32rpx;
+  left: 60rpx; 
+  border-color: transparent transparent #e1e8f0 transparent; 
+}
+/* .listPanel1{
+  width: 260rpx;
+  height: 260rpx;
+  float:right;
+  border: 1px solid #e1e8f0;
+  margin-top: 10rpx;
+  margin-right: 30rpx;
+}
+.listPanel1::before{
+  content: '';
+  width: 0;
+  height: 0;
+  border: 20px solid;
+  position: absolute;
+  bottom: -41px;
+  left: 80px;
+  border-color:  #ff0 transparent transparent;
+}
+.listPanel1::after{
+  content: '';
+  width: 0;
+  height: 0;
+  border: 20px solid;
+  position: absolute;
+  bottom: -35px;
+  left: 80px;
+  border-color:  #fff transparent transparent;
+}
+ */

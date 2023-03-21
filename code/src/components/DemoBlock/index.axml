@@ -1,0 +1,7 @@
+
+<view class="flex-box flex-column">
+  <view>{{title}}</view>
+  <slot>
+    <view>default slot & default value</view>
+  </slot>
+</view>

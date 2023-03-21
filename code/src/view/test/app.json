@@ -1,0 +1,19 @@
+{
+  "pages": ["pages/pageOne/index", "pages/index/index"],
+  "window": { "defaultTitle": "My App" },
+  "tabBar": {
+    "textColor": "#ffffff",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ba47e2",
+    "items": [
+      {
+        "pagePath": "pages/pageOne/index",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "name": "日志"
+      }
+    ]
+  }
+}

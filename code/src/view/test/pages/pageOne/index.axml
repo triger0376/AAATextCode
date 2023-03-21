@@ -1,0 +1,88 @@
+<view>
+  <view animation="{{animationInfo}}" onTap="rotateThenScale" style="background:yellow;height:100rpx;width:100rpx"></view>
+
+  <menu name="tom" show={{show}} />
+  <view class="flex-box flex-column pad30 pr">
+    <view class="bg-white mb10 pr" a:for="{{list}}">
+      <view class="item blue  text-white radius30 padt28 padb28 padl30 padr30" a:if="{{item.type==1}}">
+        <view class="flex-box flex-between">
+          <text class="f42 text-bold ">我的专属会员卡</text>
+          <text class="bg-white2 padl20 padr20 f28 radius40 flex-box middle">VIP</text>
+        </view>
+        <view class="flex-box pr padt40 alignBase middle-j time pr">
+          <text>剩余</text>
+          <text class="f64 padl20 padr20">10800</text>
+          <text>元</text>
+        </view>
+        <view class="padt60 padl35 padr35 flex-box middle-a flex-between">
+
+          <view class="flex-box flex-column mi1ddle">
+            <text>充值金额</text>
+            <text class="padt10">20000元</text>
+          </view>
+          <view class="flex-box flex-column middle">
+            <text>赠送金额</text>
+            <text class="padt10">1000元</text>
+          </view>
+          <view class="flex-box flex-column middle">
+            <text>已消费金额</text>
+            <text class="padt10">2500元</text>
+          </view>
+        </view>
+      </view>
+      <view class="item purple text-white radius30 padt28 padb28 padl30 padr30" a:if="{{item.type==2}}">
+        <view class="flex-box flex-between">
+          <text class="f42 text-bold ">我的项目疗程卡</text>
+          <text class="bg-white2 padl20 padr20 f28 radius40 flex-box middle">VIP</text>
+        </view>
+        <view class="flex-box pr padt40 alignBase middle-j time pr">
+          <text>剩余</text>
+          <text class="f64 padl20 padr20">5</text>
+          <text>次</text>
+        </view>
+        <view class="padt60 padl35 padr35 flex-box middle-a flex-between">
+          <view class="flex-box flex-column mi1ddle">
+            <text>购买金额</text>
+            <text class="padt10">580元</text>
+          </view>
+          <view class="flex-box flex-column mi1ddle">
+            <text>购买次数</text>
+            <text class="padt10">10次</text>
+          </view>
+          <view class="flex-box flex-column mi1ddle">
+            <text>已消费次数</text>
+            <text class="padt10">5次</text>
+          </view>
+
+        </view>
+      </view>
+      <view class="item red text-white radius30 padt28 padb28 padl30 padr30" a:if="{{item.type==3}}">
+        <view class="flex-box flex-between">
+          <text class="f42 text-bold ">我的专属会员卡</text>
+          <text class="bg-white2 padl20 padr20 f28 radius40 flex-box middle">VIP</text>
+        </view>
+        <view class="flex-box pr padt40 alignBase middle-j time pr">
+          <text>剩余</text>
+          <text class="f64 padl20 padr20">6000</text>
+          <text>元</text>
+        </view>
+        <view class="padt60 padl35 padr35 flex-box middle-a flex-between">
+          <view class="flex-box flex-column mi1ddle">
+            <text>充值金额</text>
+            <text class="padt10">10000元</text>
+          </view>
+          <view class="flex-box flex-column mi1ddle">
+            <text>赠送金额</text>
+            <text class="padt10">1000元</text>
+          </view>
+          <view class="flex-box flex-column mi1ddle">
+            <text>已消费金额</text>
+            <text class="padt10">5100元</text>
+          </view>
+
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

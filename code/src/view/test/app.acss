@@ -1,0 +1,5 @@
+
+@import "../../style/index.acss"; /*项目绝对路径*/
+page {
+  background: #f7f7f7;
+}

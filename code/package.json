@@ -1,0 +1,38 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "支付宝小城cli 开发整合",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node build/index.js",
+    "dev": "node build/index.js ",
+    "build": " node build/index.js",
+    "create": "node create/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd-mini": "0.0.22",
+    "chalk": "^5.1.2",
+    "inquirer": "^9.1.4",
+    "minidev": "^1.5.1",
+    "opn": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/opn": "^5.5.0",
+    "cross-env": "^7.0.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "stylelintIntegration": true,
+    "eslintIntegration": true,
+    "insertPragma": false,
+    "trailingComma": "none",
+    "arrowParens": "avoid"
+  }
+}

@@ -1,0 +1,7 @@
+<view>
+  this is a blank pageqq11q,woegeogeg  11222111cc
+  <view onTap="handleTap">click me</view>
+  <view>
+    {{text}}
+  </view>
+</view>
